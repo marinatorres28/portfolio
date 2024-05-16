@@ -2,8 +2,6 @@
     box-sizing: border-box;
 }
 body{
-    margin: 0!important;
-    padding: 0;
     line-height: 1.5;
     background-image: linear-gradient(rgb(15, 15, 15), rgb(39, 39, 39));
     height: 100vh;
@@ -56,18 +54,15 @@ body{
     list-style: none;
     background-image: linear-gradient(to right, rgb(27, 27, 27) , rgb(39, 39, 39));
     display: flex;
-    height: 70px;
+    height: 90px;
     align-items: center; 
     justify-content: right;
-   overflow: hidden;
+    
 }
 .menu li a{
     color: rgb(230, 230, 230);
     text-decoration: none;
     margin: 0 20px;
-    
-    
-    
 }
 .menu li a:hover{
     color: rgb(197, 0, 108);
@@ -94,13 +89,25 @@ body{
 }
 
 /* imagenes */
-
 img{
     height: 450px;
-
+}
+.iconos{
+    margin: 50px;
     
 }
 
+/* margenes, espacios, etc */
+.margen-arriba150{
+    margin-top:150px;
+}
+
+.margen-izquierda{
+    margin-left: 50px;
+}
+.margen.derecha{
+    margin-right: 200px;
+}
 
 
 
